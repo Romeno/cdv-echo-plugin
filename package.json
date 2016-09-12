@@ -1,0 +1,19 @@
+{
+  "name": "cdv-echo-plugin",
+  "version": "0.0.1",
+  "description": "Cordova Echo Plugin",
+  "main": "www/echo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romeno/cdv-echo-plugin.git"
+  },
+  "author": "Romeno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Romeno/cdv-echo-plugin/issues"
+  },
+  "homepage": "https://github.com/Romeno/cdv-echo-plugin#readme"
+}
