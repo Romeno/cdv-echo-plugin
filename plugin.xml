@@ -20,4 +20,15 @@
 		<source-file src="src/android/Echo.java" target-dir="src/by/romeno/cordova/plugin" />
     </platform>
 
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Echo">
+                <param name="ios-package" value="CDVEcho"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CDVEcho.h" target-dir="src/by/romeno/cordova/plugin"/>
+        <source-file src="src/ios/CDVEcho.m" target-dir="src/by/romeno/cordova/plugin" />
+    </platform>
+
 </plugin>
