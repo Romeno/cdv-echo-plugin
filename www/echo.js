@@ -3,6 +3,6 @@ var argscheck = require('cordova/argscheck'),
 	exec = require('cordova/exec'),
 	channel = require('cordova/channel');
 	
-module.exports = function(successCallback, errorCallback) {
-	exec(successCallback, errorCallback, "Echo", "echo", ["dsdsdsdsds"]);
+module.exports = function(successCallback, errorCallback, message) {
+	exec(successCallback, errorCallback, "Echo", "echo", [message]);
 };
