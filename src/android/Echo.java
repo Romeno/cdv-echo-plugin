@@ -14,12 +14,6 @@ import org.json.JSONObject;
 */
 public class Echo extends CordovaPlugin {
 	@Override
-	public void initialize(CordovaInterface cordova, CordovaWebView webView) {
-		super.initialize(cordova, webView);
-		// your init code here
-	}
-
-	@Override
 	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 		if (action.equals("echo")) {
 			String message = args.getString(0);
