@@ -1,4 +1,4 @@
-#import "Echo.h"
+#import "CDVEcho.h"
 #import <Cordova/CDVPlugin.h>
 
 @implementation Echo
